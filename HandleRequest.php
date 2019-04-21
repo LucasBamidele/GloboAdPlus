@@ -90,25 +90,23 @@ class RequestHandler
 		}
 	}
 }
-#$myjson = json_decode(file_get_contents('php://input'));
-#echo($myjson->username);
+$myjson = json_decode(file_get_contents('php://input'));
 $rh = new RequestHandler();
-
-$myjson = array(
-    'mood' => 'joy',
-    'tags' => array('shampoo', 'cabelo', 'beleza'),
-    'celebridade' => 'grazi massafera'
-);
-$payload = json_encode($myjson);
-$myjson = json_decode($payload);
+// $myjson = array(
+//     'mood' => 'joy',
+//     'tags' => array('shampoo', 'cabelo', 'beleza'),
+//     'celebridade' => 'grazi massafera'
+// );
+// $payload = json_encode($myjson);
+// $myjson = json_decode($payload);
 $rh->matchAd($myjson);
-$myjson2 = array(
-    'mood' => 'neutral',
-    'tags' => array('flamengo', 'pedro', 'beleza'),
-    'celebridade' => ''
-);
-$payload = json_encode($myjson2);
-$myjson2 = json_decode($payload);
-$rh->matchAd($myjson2);
+// $myjson2 = array(
+//     'mood' => 'neutral',
+//     'tags' => array('flamengo', 'pedro', 'beleza'),
+//     'celebridade' => ''
+// );
+// $payload = json_encode($myjson2);
+// $myjson2 = json_decode($payload);
+// $rh->matchAd($myjson2);
 
 ?>

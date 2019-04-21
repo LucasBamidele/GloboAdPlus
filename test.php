@@ -7,8 +7,9 @@ $ch = curl_init($url);
 
 //setup request to send json via POST
 $data = array(
-    'mood' => 3,
-    'tags' => array('shampoo', 'cabelo', 'beleza',)
+    'mood' => 'joy',
+    'tags' => array('shampoo', 'cabelo', 'beleza'),
+    'celebridade' => 'gr'
 );
 $payload = json_encode($data);
 
