@@ -1,0 +1,44 @@
+Programa,Horario,Tema,Tag,Negativar,Sentimento,Celebridades
+Hora,04:04,"Enterro, morte",,,sadness,
+Hora,04:11,Previsao do tempo sol,"Turismo, protetor solar, biquini, praia",nordeste,surprise,
+Hora,04:17,Roubo de carros,"Seguro, seguranca",,anger,
+Hora,04:20,Futebol,"Futebol, esporte,",,neutral,
+Hora,04:26,predios que desabaram,,"Construtora, material de construcao",sadness,
+Hora,04:27,igreja em paris,"turismo, religiao crista",,positive,
+Hora,04:28,Papa Francisco,,,positive,
+Hora,04:35,"predios que desabaram, morte crianca",,"Construtora, material de construcao",anger,
+Hora,04:38,morte crianca ,,familia,anger,
+Hora,04:41,política russia eua,,"turismo eua, turismo russia",positive,
+Hora,04:44,noticias internacionais positivas e neutras,turismo,,neutral,
+Hora,04:45,navio maranhao,"caminhao, carro, logistica terrestre","logistica navio, Vale",neutral,
+Hora,04:48,Previsao do tempo sol,"turismo brasil, praia, viagem, biquini, protetor solar",,neutral,
+Hora,04:55,Futebol flamengo,"flamengo, ",vasco,neutral,
+Hora,04:58,"politica, justica br",,,joy,
+Hora,04:59,procissao mg,"Turismo mg, religiao, viagem",,joy,
+Hora,05:03,previsao tempo,turismo brasil,,joy,
+Hora,05:06,delacao odebrech,,,anger,
+Hora,05:13,Bolsonaro exercito imprensa,,,neutral,
+Hora,05:16,escalada jornais assuntos polemicos,,,positive,
+Hora,05:20,Previsao do tempo chuva sp,"Viagem nordeste, rj, br geral",,neutral,
+Hora,05:21,evento religioso bh,"Turismo mg, turismo geral, religioso",,positive,
+Hora,05:26,evento religioso sp,"turismo sp, turismos geral, religioso",,positive,
+Hora,05:27,evento religioso ce,"turismo ce, turismos geral, religioso, turismo nordeste",,positive,
+Hora,05:35,transito estradas,turismo,,positive,
+Hora,05:41,previsao do tempo chuva norte e nordeste,"turismo sul e sudeste, goiania, BH",turismos nordeste e norte,positive,
+Hora,05:45,Encontro eua e Japao,turismo geral,Coreia,positive,
+Hora,05:48,Uniao irlanda e Alemanha,,,positive,
+Hora,05:45,encenacao religiosa,,,fear,
+Hora,05:46,Pascoa Japao,"Turismo japao, Pascoa, chocolate",,positive,
+Hora,05:51,Tratamentos alternativos sus,,saude paga,positive,
+Hora,05:54,esporte futebol corinthians,Corinthians,"palmeiras, Sao Paulo Futebol Clube",animado,
+Hora,05:55,encerramento Hora 1,,,"animado, feliz, divertido",
+Mais Voce,09:00,abertura musica roberto carlos,,,emocionante,Grazi Massafera
+Mais Voce,09:02,santo expedito,"religioso, turismo religioso",,"curioso, animado",Grazi Massafera
+Mais Voce,09:07,"milho, logo qualita","milho, supermercado pao de acucar, legumes, alimentacao, turismo sao paulo","extra, carrefour, sonda, limpeza","curioso, animado, fome",Grazi Massafera
+Mais Voce,09:20,Entrevista Palmirinha,"gastronomia, restaurante, supermercado, alimentos",Limpeza,"carinho, emocao",Grazi Massafera
+Mais Voce,09:26,Noticias g1 mix negativo e positivo,,Limpeza,curioso,Grazi Massafera
+Mais Voce,09:27,Entrevista Palmirinha,"gastronomia, restaurante, supermercado, alimentos, familia",Limpeza,"carinho, muita emocao",Grazi Massafera
+Mais Voce,09:44,merchandising recarga celular,,recarga celular,interessante,Grazi Massafera
+Mais Voce,09:47,Entrevista Palmirinha,"gastronomia, restaurante, supermercado, alimentos, familia",Limpeza,"carinho, muita emocao",Grazi Massafera
+Mais Voce,09:49,Quadro gastronomia pratos divertidos,"infantil, supermercado",Limpeza,"divertido, animado",Grazi Massafera
+Mais Voce,09:53,Entrevista Palmirinha,"gastronomia, restaurante, supermercado, alimentos, familia",Limpeza,"carinho, muita emocao",Grazi Massafera
