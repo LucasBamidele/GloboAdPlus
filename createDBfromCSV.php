@@ -7,14 +7,14 @@ $sql = "SELECT * FROM PROGRAMACAO LIMIT 1";
 $result = mysqli_query($conn,$sql);
 if(!$result){
 	$sql = 'CREATE TABLE PROGRAMACAO (
-  `ID` int,
-  `Programa` varchar(255) ,
+  `id` int,
+  `programa` varchar(255) ,
   `tema` varchar(255),
   `mood` varchar(255) NOT NULL,
   `negative` varchar(255),
   `tags` JSON,
-  `Horario` BIGINT NOT NULL,
-  `Celebridades` varchar(255)
+  `horario` BIGINT NOT NULL,
+  `celebridades` varchar(255)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8';
 	$result = mysqli_query($conn,$sql);
 	echo 'creating DB <br>';
@@ -44,7 +44,7 @@ if (($h = fopen("prog3.csv", "r")) !== FALSE)
   	$negative = $data[4];
   	$mood = $data[5];
   	$celebridade = $data[6];
-  	$sql = "INSERT INTO PROGRAMACAO (Programa, tema, mood, negative, tags, Horario, Celebridades) VALUES ('$progr', '$tema', '$mood', '$negative', '$tags', '$horario', LOWER('$celebridade'))";
+  	$sql = "INSERT INTO PROGRAMACAO (programa, tema, mood, negative, tags, horario, celebridades) VALUES ('$progr', '$tema', '$mood', '$negative', '$tags', '$horario', LOWER('$celebridade'))";
 	if($result = mysqli_query($conn,$sql)) {
 		echo 'success <br>';
 	}

@@ -40,7 +40,7 @@ class RequestHandler
 		$moodscore = abs($this->getMood($ad->mood) - $mood);
 		$moodscore = 7 - $moodscore;
 		$neg = $scheduled['negative'];
-		$celeb = $scheduled['Celebridades'];
+		$celeb = $scheduled['celebridades'];
 		$tagscore = 0;
 		$mytags = json_decode($scheduled['tags']);
 		$agr = $mytags->tags;
