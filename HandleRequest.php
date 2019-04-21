@@ -80,8 +80,6 @@ class RequestHandler
 				echo false;
 			}
 			else {
-				var_dump($maxroll);
-				echo '<br>';
 				echo json_encode($maxroll);
 			}
 		}
